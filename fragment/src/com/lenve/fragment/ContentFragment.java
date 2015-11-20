@@ -72,6 +72,12 @@ public class ContentFragment extends Fragment {
 		list.add("黄州快哉亭记");
 		list.add("上枢密韩太尉书");
 		map.put("苏辙", list);
+		list = new ArrayList<String>();
+		list.add("六国论");
+		list.add("九日和韩魏公");
+		list.add("心术");
+		list.add("管仲论");
+		map.put("苏洵", list);
 	}
 
 	public void showPro(String key) {

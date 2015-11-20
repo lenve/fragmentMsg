@@ -78,6 +78,8 @@ public class NameFragment extends Fragment {
 					intent.putExtra("name", name);
 					LocalBroadcastManager.getInstance(getActivity())
 							.sendBroadcast(intent);
+				} else if ("苏洵".equals(name)) {
+					((MainActivity) getActivity()).showProByName(name);
 				}
 			}
 		});
